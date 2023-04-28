@@ -14,7 +14,7 @@ body {
     padding: 4px;
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     height: 45px;
     position: relative;
 }
@@ -28,7 +28,6 @@ body {
  }
  .header__link:focus{
     outline: none;
-    background-color:#00000c;
     border-radius: 4px;
  }
  .icone{
@@ -60,8 +59,8 @@ body {
     font-family: 'Damion',cursive;
     font-size: 52px;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
     margin: 0 auto;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #ebeaea;
  }
