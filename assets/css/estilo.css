@@ -21,7 +21,7 @@ body {
 .header__link{
     text-decoration: none;
     box-sizing: border-box;
-    padding: 4px;  
+    padding: 0px;  
 }
 .header__link:hover{
     opacity: .6;
@@ -61,5 +61,5 @@ body {
     font-weight: 400;
     color: rgb(245, 245, 245); 
     border: 2px solid #ebeaea;
-    
+
  }
