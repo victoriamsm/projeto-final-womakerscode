@@ -35,10 +35,15 @@ body {
     flex-direction: row-reverse;   
  }
  .main{
-    justify-content: center;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+    
  }
  .biografia{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 100%;
     border: 2px solid green;
     position: relative;
@@ -47,15 +52,14 @@ body {
     width: 100%;
     max-width: 200px;
     height: 100%;
-    border: 4px solid yellow;
+    border: 4px solid yellow;  
     
  }
  .biografia__nome{
     font-family: 'Damion',cursive;
     font-size: 52px;
     font-weight: 400;
-    color: rgb(245, 245, 245);
-    margin: 0 auto;
-    text-align: center;
+    color: rgb(245, 245, 245); 
     border: 2px solid #ebeaea;
+    
  }
