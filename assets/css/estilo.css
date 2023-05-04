@@ -83,4 +83,32 @@ body {
    padding: 4px;
    border: 2px solid red;
 }
+.section {
+   padding: 8px;
+   width: 100%;
+   max-width: 350px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   flex-direction: column;  
+   display: flex;
+   margin: auto 0;
+   padding: 4px;
+   
+}
+  
+.section__titulo{
+   font-family: 'Damion',cursive;
+  font-size: 35px;
+  font-weight: 400;
+  color:rgb(245, 245, 245); 
+  justify-content: center;
 
+}
+.section__bio {
+   font-family: 'Poppins',sans-serif;
+   box-sizing: border-box; 
+   font-size: 17px;
+   width: 900px;
+   height: 100%;
+   margin-top: 1px;
+}
