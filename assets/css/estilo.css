@@ -20,6 +20,7 @@ body {
     background-color: rgb(245, 245, 245);
     height: 45px;
     display: inline;
+    border-radius: 10px;
 }
 .header__link{
     text-decoration: none;
@@ -80,7 +81,10 @@ body {
    justify-content: center;
    flex-direction: column;  
    margin: 0 auto;
-   padding: 4px;
+   padding: 5px;
+   border-radius: 8px;
+   background-color:rgb(1, 1, 40);
+ 
    
 }
 .section {
@@ -105,10 +109,14 @@ body {
 
 }
 .section__bio {
+   background-color:rgb(1, 1, 40);
+   color: rgb(245, 245, 245);
    font-family: 'Poppins',sans-serif;
    box-sizing: border-box; 
    font-size: 17px;
    width: 900px;
    height: 100%;
    margin-top: 1px;
+   border-radius: 8px;
+   padding: 5px;
 }
