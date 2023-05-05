@@ -1,10 +1,10 @@
 
 body {
     background-color: rgb(1, 1, 24);
-    height: 100vh;
+    height: 200vh;
     display: flex;
     font-family: 'Poppins',sans-serif;
-    color: #f4f4f4;
+    color: rgb(245, 245, 245);
     border: 2px solid red;
     flex-direction: column;
     justify-content: space-between;
