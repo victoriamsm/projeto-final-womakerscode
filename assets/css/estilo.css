@@ -40,6 +40,31 @@ body {
     padding: 2px;
        
  }
+ .carrossel{
+   position: relative;
+   padding: 15px;
+   margin: 0 auto;
+   max-width: 640px;
+   
+
+ }
+ .gallery-wrapper{
+   overflow-x: auto;
+
+ }
+ .gallery{
+   display: flex;
+   flex-flow: row nowrap;
+   gap: 15px;
+
+ }
+ 
+ .carrossel__foto {
+   width: 300px;
+   height: 250px;  
+   max-width: 100%;
+
+}
  .main{
    position: relative;
    display: flex;
@@ -56,12 +81,7 @@ body {
     margin: 1.5rem;
    
  }
- .intro__foto {
-    width: 300px;
-    height: 300px;  
-    max-width: 100%;
  
- }
  .intro__nome{
     font-family: 'Damion',cursive;
     font-size: 52px;
