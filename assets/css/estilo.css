@@ -44,8 +44,7 @@ body {
    position: relative;
    padding: 15px;
    margin: 0 auto;
-   max-width: 640px;
-   
+   max-width: 640px; 
 
  }
  .gallery-wrapper{
@@ -56,6 +55,22 @@ body {
    display: flex;
    flex-flow: row nowrap;
    gap: 15px;
+
+ }
+ .arrow-left,
+ .arrow-right{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: auto;
+   bottom: 0;
+   font-size: 15px;
+   line-height: 250px;
+   width: 30px;
+   text-align: center;
+   color: #fff;
+   cursor: pointer;
+   border: none;
 
  }
  
