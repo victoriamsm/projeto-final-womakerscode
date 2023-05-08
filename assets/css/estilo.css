@@ -15,30 +15,38 @@ body {
     padding: 8px;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
    
     
 }
 .header__nav{
-   height: fit-content;
-   width: fit-content;
-   position: fixed;
+   height: 20px;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   width: 80vw;
+   display: flex;
+   flex-direction: row;
    color: #e06500;
    box-sizing: border-box;
    
 }.header__a{
    box-sizing: border-box;
    background-color: rgb(245, 245, 245);
-  top: 50px;
+   top: 50px;
    color: #e06500;
    font-size: 25px;
    font-family: 'Damion',cursive;
 }
-
-
-
+ul{
+   margin-left: 40px;
+}
+ul li{
+   display: inline;
+   padding: 10px;
+}
 .header__link{
     text-decoration: none;
     box-sizing: border-box;
@@ -60,7 +68,7 @@ body {
    margin: 0 8px;
    animation: pulsar 1s infinite alternate;
 }
- .carrossel{
+ #carrossel{
    position: relative;
    padding: 15px;
    margin: 0 auto;
