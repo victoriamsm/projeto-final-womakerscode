@@ -60,7 +60,7 @@ body {
    margin: 0 8px;
    animation: pulsar 1s infinite alternate;
 }
- #carrossel{
+ .carrossel{
    position: relative;
    padding: 15px;
    margin: 0 auto;
