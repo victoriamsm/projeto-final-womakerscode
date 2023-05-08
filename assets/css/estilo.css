@@ -15,18 +15,28 @@ body {
     padding: 8px;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
    
     
 }
 .header__nav{
-font-family: 'Poppins'sans-serif;
+   height: fit-content;
+   width: fit-content;
+   position: fixed;
    color: #e06500;
-   font-size: 18px;
+   box-sizing: border-box;
    
+}.header__a{
+   box-sizing: border-box;
+   background-color: rgb(245, 245, 245);
+  top: 50px;
+   color: #e06500;
+   font-size: 25px;
+   font-family: 'Damion',cursive;
 }
+
 
 
 .header__link{
