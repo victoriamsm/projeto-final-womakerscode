@@ -15,12 +15,20 @@ body {
     padding: 8px;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
-    height: 45px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
    
     
 }
+.header__nav{
+font-family: 'Poppins'sans-serif;
+   color: #e06500;
+   font-size: 18px;
+   
+}
+
+
 .header__link{
     text-decoration: none;
     box-sizing: border-box;
@@ -154,16 +162,16 @@ body {
    position: relative; 
    margin: 0 auto;
 }
-  
-.section__titulo{
-  font-family: 'Damion',cursive;
-  font-size: 35px;
-  font-weight: 400;
-  color:rgb(245, 245, 245); 
-  justify-content: center;
-  color: #e06500;
+#sectionTitulo{
+   color: #e06500;
+   font-family: 'Damion',cursive;
+   font-size: 35px;
+   font-weight: 400;
+   justify-content: center;
+   
+ 
+ } 
 
-}
 .section__bio {
    background-color:rgb(1, 1, 40);
    color: rgb(245, 245, 245);
@@ -187,11 +195,10 @@ body {
    padding: 4px;
    position: relative; 
 }
-.contribuicoes__titulo{
+#contribuicoesTitulo{
    font-family: 'Damion',cursive;
   font-size: 35px;
   font-weight: 400;
-  color:rgb(245, 245, 245); 
   justify-content: center;
   color: #e06500;
  
