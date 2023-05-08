@@ -78,7 +78,7 @@ body {
    border: none;
    background: linear-gradient(to left, transparent 0%, rgb(1, 5, 68) 200%);
    opacity: 0.4;
-   transition: all 600ms ease-in-out;
+   transition: all 500ms ease-in-out;
  }
  .arrow-right{
    left: auto;
@@ -162,7 +162,6 @@ body {
   font-weight: 400;
   color:rgb(245, 245, 245); 
   justify-content: center;
-  
   color: #e06500;
 
 }
