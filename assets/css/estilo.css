@@ -272,4 +272,6 @@ ul li{
        transform: scale(1.1);
    }
 }
-@media (max-width:658px){ .header__nav{ visibility: hidden; } }
+@media (max-width:658px){
+   .header__nav{ visibility: hidden; }
+ }
