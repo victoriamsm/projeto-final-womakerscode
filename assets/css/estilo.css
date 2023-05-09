@@ -96,7 +96,7 @@ ul li{
    cursor: pointer;
    border: none;
    background: linear-gradient(to left, transparent 0%, rgb(1, 5, 68) 200%);
-   opacity: 0.4;
+   opacity: 0.1;
    transition: all 500ms ease-in-out;
  }
  .arrow-right{
@@ -274,6 +274,4 @@ ul li{
 }
 @media (max-width:658px){
    .header__nav{visibility: hidden;}
-   .arrow-left,
- .arrow-right {visibility: hidden;}
  }
