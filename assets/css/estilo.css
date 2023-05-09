@@ -29,7 +29,8 @@ body {
    flex-direction: row;
    color: #e06500;
    box-sizing: border-box;
-}.header__a{
+}
+.header__a{
    box-sizing: border-box;
    background-color: rgb(245, 245, 245);
    top: 50px;
